@@ -7,7 +7,7 @@ import HomeCategory from '../../Components/Home/HomeCategory'
 const HomePage = () => {
   return (
     
-    <div className='font'>
+    <div className='font' style={{minHeight:"670px"}}>
       <NavBarLogin />
       <Slider />
       <HomeCategory/>
