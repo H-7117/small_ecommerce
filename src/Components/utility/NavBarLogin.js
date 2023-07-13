@@ -9,7 +9,7 @@ const NavBarLogin = () => {
     <Navbar className='sticky-top' bg='dark' variant='dark' expand='sm'>
       <Container>
           <Navbar.Brand>
-            <a href='/'>
+            <a href='/HomePage'>
             <img src={logo} className='logo'/>
             </a>
           </Navbar.Brand>
