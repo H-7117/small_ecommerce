@@ -9,7 +9,9 @@ const NavBarLogin = () => {
     <Navbar className='sticky-top' bg='dark' variant='dark' expand='sm'>
       <Container>
           <Navbar.Brand>
+            <a href='/'>
             <img src={logo} className='logo'/>
+            </a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>
@@ -19,11 +21,11 @@ const NavBarLogin = () => {
               className='me-2 w-100 text-center'
             />
             <Nav className='me-auto'>
-              <Nav.Link className='nav-text d-flex mt-3 justify-content-center'>
+              <Nav.Link href='/login' className='nav-text d-flex mt-3 justify-content-center'>
                 <img src={login}  className='login-img' alt='login-img'/>
                 <p style={{color:"white"}}>دخول</p>
               </Nav.Link>
-              <Nav.Link
+              <Nav.Link href='/cart'
               className='nav-text d-flex mt-3 justify-content-center'
               style={{color:"white"}}
               >
