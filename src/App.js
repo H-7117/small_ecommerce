@@ -5,6 +5,7 @@ import Footer from '../src/Components/utility/Footer'
 import LoginPage from "./page/Auth/LoginPage";
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Reigster from "./page/Auth/Reigster";
+import AllCategoryPage from "./page/Category/AllCategoryPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<HomePage />}/>
           <Route path="login" element={<LoginPage/>}/>
           <Route path="Reigster" element={<Reigster/>}/>
+          <Route path="AllCat" element={<AllCategoryPage/>} />
         </Routes>      
       </BrowserRouter>
       <Footer />
