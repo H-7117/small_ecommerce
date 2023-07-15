@@ -1,6 +1,5 @@
 import React from 'react'
 import {Container ,Row} from 'react-bootstrap'
-import SubTitle from '../utility/SubTitle'
 import CategoryCard from '../Category/CategoryCard'
 import clothe from '../../Images/clothe.png'
 import cat2 from '../../Images/cat2.png'
@@ -10,7 +9,7 @@ import pic from '../../Images/pic.png'
 const CategoryContainer = () => {
   return (
     <Container>
-      <div className='admin-content-text mt-2'>كل التصنيفات</div>
+      <div className='admin-content-text mt-2'>كل الماركات</div>
         <Row className='my-2 d-flex justify-content-between'>
         
         <CategoryCard background='#F4DBA4' img={clothe} title="اجهزه" />
