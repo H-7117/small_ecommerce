@@ -13,10 +13,10 @@ const HomePage = () => {
       
       <Slider />
       <HomeCategory/>
-      <CardProductComponent title="الاكثر مبيعا" btntitle="المزيد"/>
+      <CardProductComponent title="الاكثر مبيعا" btntitle="المزيد" pathText='/allproduct'/>
       <DiscountSection />
-      <CardProductComponent title="احدث الازياء" btntitle="المزيد" />
-      <CardBrandComponent title="المركات العالميه" btntitle="المزيد"/>
+      <CardProductComponent title="احدث الازياء" btntitle="المزيد" pathText='/allproduct'/>
+      <CardBrandComponent title="المركات العالميه" btntitle="المزيد" />
       
     </div>
     

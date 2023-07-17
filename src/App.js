@@ -7,6 +7,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Reigster from "./page/Auth/Reigster";
 import AllCategoryPage from "./page/Category/AllCategoryPage";
 import AllBrandPage from "./page/Brand/AllBrandPage";
+import ShopProductsPage from "./page/Products/ShopProductsPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="Reigster" element={<Reigster/>}/>
           <Route path="AllCat" element={<AllCategoryPage/>} />
           <Route path="allbrand" element={<AllBrandPage/>} />
+          <Route path="allproduct" element={<ShopProductsPage/>} />
 
         </Routes>      
       </BrowserRouter>

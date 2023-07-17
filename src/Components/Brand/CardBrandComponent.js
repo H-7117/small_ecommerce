@@ -6,7 +6,7 @@ import brand1 from '../../Images/brand1.png'
 import brand2 from '../../Images/brand2.png'
 import brand3 from '../../Images/brand3.png'
 
-const CardBrandComponent = ({title,btntitle}) => {
+const CardBrandComponent = ({title,btntitle,pathText}) => {
   return (
     <Container>
     <SubTitle title={title} btntitle={btntitle} pathText='allbrand'/>
